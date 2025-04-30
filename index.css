@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Smythe, serif;
+    width: 600px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+
+}
+
+h1 {
+    font-size: 39px;
+}
+
+.main-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 10px;
+}
+
+.hero-text {
+    color: white;
+    font-family: Smythe, serif;
+    font-weight: 400;
+    margin-left: 46px;
+}
+
+header {
+    background-image: url('assets/bg-img.png');
+    height: 167px;
+}
+
+main {
+    margin-top: 40px;
+}
+
+.menu-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 508px;
+    gap: 45px;
+}
+
+.menu-element {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-icon {
+    font-size: 78px;
+}
+
+.item-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    gap: 4px;
+}
+
+.item-description > h4 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.item-description > p {
+    font-size: 16px;
+    color: #8B8B8B;
+}
+.item-price {
+    font-size: 20px;
+}
+
+.js-plus-btn {
+    font-size: 32px;
+    font-weight: 200;
+    border: 1px solid #DEDEDE;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.js-plus-btn:hover {
+    cursor: pointer;
+}
+
+hr {
+    color: #D2D2D2;
+}
+
+h2 {
+    text-align: center;
+}
+
+.item-summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary-item-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.summary-item-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.summary-item-left > h3, .item-quantity {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.remove-btn {
+    font-size: 14px;
+    color: #BBBBBB;
+}
+
+.remove-btn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#total-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#checkout-btn {
+    height: 60px;
+    background-color: #16DB99;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+#checkout-btn:hover {
+    cursor: pointer;
+}
+
+#checkout-btn:active {
+    background-color: #14C88C;
+}
+
+#modal-window {
+    margin: 0 auto;
+    position: fixed;
+    z-index: 1000;
+    width: 542px;
+    height: 542px;
+    background-color: #fff;
+    top: 292px;
+    left: 1010px;
+    box-shadow:0 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+#modal-wrapper {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#modal-wrapper > h2 {
+    font-size: 32px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input {
+    box-sizing: border-box;
+    width: 475px;
+    height: 72px;
+    font-size: 20px;
+    padding: 30px;
+}
+
+form > button {
+    width: 475px;
+    height: 60px;
+    background-color: #16DB99;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+form > button:hover {
+    cursor: pointer;
+}
+
+form > button:active {
+    background-color: #14C88C;
+}
+
+#final-word {
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 504px;
+    height: 120px;
+    background-color: #ECFDF5;
+    color: #065F46;
+}
